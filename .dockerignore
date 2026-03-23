@@ -1,0 +1,37 @@
+# 🔐 Secrets (MOST IMPORTANT)
+.env
+.env.*
+*.env
+
+# 🐍 Python cache
+__pycache__/
+*.pyc
+*.pyo
+*.pyd
+
+# 🧪 Virtual environments
+.venv/
+venv/
+env/
+
+# 🧰 Git
+.git/
+.gitignore
+
+# 📦 Build / cache
+build/
+dist/
+*.egg-info/
+
+# 🧠 IDE files
+.vscode/
+.idea/
+
+# 🖼️ Runtime/generated files
+images/
+logs/
+*.log
+
+# 🧾 OS files
+.DS_Store
+Thumbs.db

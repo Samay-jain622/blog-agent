@@ -1,0 +1,32 @@
+
+# Ignore everything by default
+*
+
+# Allow only required files
+!frontend.py
+!bwa_image.py
+!Dockerfile
+!pyproject.toml
+!uv.lock
+!.gitignore
+!README.md
+!.dockerignore 
+
+# Python-generated files
+__pycache__/
+*.py[oc]
+build/
+dist/
+wheels/
+*.egg-info
+
+# Virtual environments
+.venv
+# Never push secrets
+.env
+
+# Ignore runtime/generated files
+images/
+*.md
+__pycache__/
+.venv/
